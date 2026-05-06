@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    font-family: 'Liberation Sans';
+}
+main{
+    flex: 1;
+}
+header, footer{
+    border-width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #1b611b;
+    color: white;
+    font-family: 'Liberation Sans';
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+footer{
+    margin-top: auto;
+}
+header h1{
+    margin: 0;
+}
+header h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.header-titulo{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.header-links{
+    text-decoration: underline;
+    color: white;
+    margin: 20px;
+}
+
+.corpo-texto{
+    max-width: 60%;
+    margin: 3vh auto;
+    font-family: 'Liberation Sans';
+    text-align: justify;
+}
+.corpo-texto-titulo {
+    text-align: center;
+    margin: 1%;
+}
+.corpo-texto-index {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh auto;
+    flex-direction: row;
+    gap: 5%;
+}
+.frase h1{
+    text-align: center;
+}
+.frase img{
+    max-height: 40vh;
+}
+
+.convidados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
+}
+
+.convidados-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 18%;
+    max-height: 18%;
+}
+.corpo-texto img{
+    max-width: 18%;
+    max-height: 18%;
+}
+p.corpo-texto{
+    margin-bottom: 2vh;
+}
+.datas {
+    align-items: center;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+}
+.datas h1, .datas h2{
+    margin: 0;
+    gap: 0;
+}
+
+main.centralized {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-inscricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input[type=email], input[type=tel], input[type=password], button[type=submit]{
+    width: 15%;
+    padding: 5px;
+    margin: 1vh;
+    display: inline-block;
+    border: 1px solid #91908f;
+    border-radius: 4px;
+}
+button[type=submit]{
+    background-color: #1b611b;
+    color: white;
+}
